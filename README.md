@@ -210,8 +210,8 @@ java导致内存泄露的原因很明确：长生命周期的对象持有短生�
   所以在Java开发过程中和代码复审的时候要重点关注那些长生命周期对象：全局性的集合、单例模式的使用、类的static变量等等。在不使用某对象时，显式地将此对象赋空，遵循谁创建谁释放的原则，减少内向泄漏发生的机会。
   
   
-  [JAVA面试13点经验](http://uule.iteye.com/blog/1119493)
-  [阿里巴巴面试](http://www.thebigdata.cn/JiShuBoKe/979.html)
-  [面试1](http://blog.csdn.net/liusocg520/article/details/21740463)
-  [面试2](http://blog.csdn.net/lifetragedy/article/details/11898665)
-  [面试3](http://www.mianwww.com/html/2011/09/10173.html)
+  - [JAVA面试13点经验](http://uule.iteye.com/blog/1119493)
+  - [阿里巴巴面试](http://www.thebigdata.cn/JiShuBoKe/979.html)
+  - [面试1](http://blog.csdn.net/liusocg520/article/details/21740463)
+  - [面试2](http://blog.csdn.net/lifetragedy/article/details/11898665)
+  - [面试3](http://www.mianwww.com/html/2011/09/10173.html)
