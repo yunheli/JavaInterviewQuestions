@@ -1,4 +1,3 @@
-
 ####1.java 语言如何进行异常处理，关键字：throws、throw、try、catch、finally分别代表什么意义？finally代码是在return之后还是之前执行？
 
 throws是获取异常，throw是抛出异常，try是将会发生异常的语句括起来，从而进行异常的处理，
@@ -114,3 +113,43 @@ Hibernate三种状态之三：游离状态（Detached）：持久化对象脱离
   get()方法执行的时候,会立即向数据库发出查询语句,
   而load()方法返回的是一个代理(此代理中只有一个id属性),只有等真正使用该对象属性的时候,才会发出sql语句
 2.如果数据库中没有对应的记录,get()方法返回的是null.而load()方法出现异常ObjectNotFoundException
+
+
+#### 面试另外一个家伙：
+
+我：你能描述一下你最近开发的项目、以及使用到的技术吗？
+
+应试者： 那是个XYZ系统，我们使用了Spring，Hibernate，REST WebServices。
+
+我：那好。你能解释一下RESTful吗？
+
+应试者：我们使用@RequestMapping(value=”/url”, method=”POST”)来开发RESTful应用。我们还使用了PUT，DELETE方法。
+
+我：哦，那RESTful个什么概念？
+
+应试者： 我不是说了吗，如果你使用 @RequestMapping(value=”/url”, method=”POST”)，你就是在开发RESTful应用。
+
+我：哦，你对Hibernate如何？
+
+应试者：我这两年一直在使用Hibernate。我对Hibernate很熟悉。
+
+我：跟JDBC比起来，Hibernate有什么优势?
+
+应试者：使用Hibernate，我们不需要写任何跟数据库交互的东西，Hibernate会帮我们处理这些。
+
+我：那Hibernate怎么能知道你的项目需要如何的存取？
+
+应试者：如果我们使用了Hibernate，它会帮我们完成存储，更新，取数据等数据库操作。
+
+我：哦，哦。你在业余时间会读一些技术相关的博客吗？
+
+应试者：当然，我对Hibernate的深入掌握就是这样学会的。
+
+我：非常好，很高兴见到你。我们的人力资源部会给你打电话的。
+
+面试过程就这样 …
+
+我绝对相信各种框架会提高程序员的工作效率。但程序员也应该努力去了解这些框架是如何工作的。你并不需要理解各种框架的所有内部工作原理。如果你非 常的擅长Servlets和JSP，那你就很容易理解诸如Struts，Spring MVC等Java Web框架。如果你不了解这些基础知识，很显然，所有你的回答只能是“框架/标记/XML帮我们做了这些”。
+
+我强烈建议所有刚开始职业生涯的Java程序员都要认真学习Java核心，Servlets，JSP知识。只有这样你才能正确的理解各种框架的工作原理。
+
